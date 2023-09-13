@@ -49,6 +49,8 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.material3.Switch
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -66,7 +68,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+/* Agrega compatibilidad con la orientación horizontal*/
 @Composable
 fun TipTimeLayout() {
     var roundUp by remember { mutableStateOf(false) }
@@ -77,7 +79,9 @@ fun TipTimeLayout() {
     val tip = calculateTip(amount, tipPercent, roundUp)/*actualiza la llamada a función*/
 
     Column(
-        modifier = Modifier.padding(40.dp),
+        modifier = Modifier
+            .padding(40.dp)
+            .verticalScroll(rememberScrollState()),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
