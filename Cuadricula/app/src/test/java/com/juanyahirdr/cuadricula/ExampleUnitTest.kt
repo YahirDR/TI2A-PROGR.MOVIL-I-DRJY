@@ -1,4 +1,4 @@
-package com.juanyahirdr.myapplication
+package com.juanyahirdr.cuadricula
 
 import org.junit.Test
 

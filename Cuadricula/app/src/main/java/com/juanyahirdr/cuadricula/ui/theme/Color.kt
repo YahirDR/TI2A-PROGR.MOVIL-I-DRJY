@@ -1,4 +1,4 @@
-package com.juanyahirdr.myapplication.ui.theme
+package com.juanyahirdr.cuadricula.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

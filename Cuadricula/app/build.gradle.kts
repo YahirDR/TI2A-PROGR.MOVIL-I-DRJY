@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.juanyahirdr.myapplication"
+    namespace = "com.juanyahirdr.cuadricula"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.juanyahirdr.myapplication"
+        applicationId = "com.juanyahirdr.cuadricula"
         minSdk = 24
         targetSdk = 33
         versionCode = 1

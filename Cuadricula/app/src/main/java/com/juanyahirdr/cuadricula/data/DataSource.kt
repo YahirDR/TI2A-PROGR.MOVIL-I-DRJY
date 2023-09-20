@@ -1,7 +1,5 @@
-package com.juanyahirdr.myapplication.Data
-
-import com.juanyahirdr.myapplication.R
-import com.juanyahirdr.myapplication.model.Topic
+import com.juanyahirdr.cuadricula.R
+import com.juanyahirdr.cuadricula.model.Topic
 
 object DataSource {
     val topics = listOf(
