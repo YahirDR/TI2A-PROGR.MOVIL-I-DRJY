@@ -1,4 +1,4 @@
-package com.juanyahirdr.appheroes
+package com.juanyahirdr.appheroes.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Shapes
