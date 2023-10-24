@@ -28,7 +28,7 @@ import androidx.compose.ui.test.onNodeWithText
 import androidx.compose.ui.test.performClick
 import com.example.reply.R
 import com.example.reply.data.local.LocalEmailsDataProvider
-import com.example.reply.ui.ReplyApp
+import com.example.reply.ui.utils.ReplyApp
 import org.junit.Rule
 import org.junit.Test
 

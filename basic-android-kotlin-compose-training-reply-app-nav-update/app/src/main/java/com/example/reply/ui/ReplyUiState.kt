@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.reply.ui
+package com.example.reply.ui.utils
 
 import com.example.reply.data.Email
 import com.example.reply.data.MailboxType

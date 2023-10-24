@@ -19,7 +19,7 @@ import androidx.activity.ComponentActivity
 import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import com.example.reply.R
-import com.example.reply.ui.ReplyApp
+import com.example.reply.ui.utils.ReplyApp
 import org.junit.Rule
 import org.junit.Test
 

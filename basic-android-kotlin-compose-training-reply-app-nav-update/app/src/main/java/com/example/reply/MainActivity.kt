@@ -24,7 +24,7 @@ import androidx.compose.material3.windowsizeclass.WindowWidthSizeClass
 import androidx.compose.material3.windowsizeclass.calculateWindowSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.reply.ui.ReplyApp
+import com.example.reply.ui.utils.ReplyApp
 import com.example.reply.ui.theme.ReplyTheme
 
 class MainActivity : ComponentActivity() {
